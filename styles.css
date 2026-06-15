@@ -234,6 +234,11 @@ h2 { font-size: clamp(52px, 6vw, 83px); line-height: .97; letter-spacing: -1.5px
 .gallery-grid img { transition: transform .6s ease; }
 .gallery-grid figure:hover img { transform: scale(1.035); }
 .gallery-main { grid-row: 1 / 3; }
+.gallery-grid .focus-shop { object-position: 50% 45%; }
+.gallery-grid .focus-beard { object-position: 47% 42%; }
+.gallery-grid .focus-design { object-position: 48% 43%; }
+.gallery-grid .focus-fade { object-position: 55% 48%; }
+.gallery-grid .focus-treatment { object-position: 48% 42%; }
 .gallery-caption { margin: 18px 0 0; color: var(--muted); font-size: 11px; text-align: right; }
 
 .reviews {
